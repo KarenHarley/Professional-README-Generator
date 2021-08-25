@@ -36,7 +36,7 @@ const dataDEMO = {
   title: "Karen",
   description: "My house",
   installation: "I like dogs",
-  usage: "bla bla",
+  usage: "bla",
   license: "MIT",
   contributing: "contirbuting",
   test: "test",
