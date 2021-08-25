@@ -3,6 +3,7 @@ var fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require('./generateMarkdown.js');
 
+
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -38,7 +39,7 @@ const questions = [
   {
     type: "list",
     message: "Select License",
-    choices: ["MIT", "bla", "bla2"],
+    choices: ["MIT", "GNU GPL v3", "Apache","Mozilla"],////MIT Apache Mozilla GNU GPL v3
     name: "license", //user input stored here
   },
   {
@@ -54,7 +55,7 @@ const questions = [
   {
     type: "input",
     message:
-      "Enter text for your Questions section (instructions on how to reach you if other have questions) note: you email (PRIVIOUSLY INPUTED) will be added here",
+      "Enter instructions on how to reach you for your Questions section. Note: your email (PRIVIOUSLY INPUTED) will be added here",
     name: "questions", //user input stored here
   },
 ];
