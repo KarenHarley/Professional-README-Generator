@@ -8,7 +8,7 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [How to Contribute](#How to Contribute)
+  - [How to Contribute](#contribute)
   - [Tests](#tests)
   - [Questions](#Questions)
   
