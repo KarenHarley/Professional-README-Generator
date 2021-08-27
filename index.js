@@ -13,17 +13,17 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter your GItHub username", //add to questions
+    message: "Enter your GitHub username", //add to questions
     name: "github", //user input stored here
   },
   {
     type: "input",
-    message: "Enter COMPLETE Email Address",
+    message: "Enter your COMPLETE Email Address",
     name: "email", //user input stored here
   },
   {
     type: "input", //here could use checkbox
-    message: "Enter text for your Description",
+    message: "Enter text for the Section: Description",
     name: "description", //user input stored
   },
   {
@@ -55,7 +55,7 @@ const questions = [
   {
     type: "input",
     message:
-      "Enter instructions on how to reach you for your Questions section. Note: your email (PRIVIOUSLY INPUTED) will be added here",
+      "Enter instructions on how to reach you for the Section: Questions. Note: your email and GitHub (PRIVIOUSLY INPUTED) will be added here",
     name: "questions", //user input stored here
   },
 ];
