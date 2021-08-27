@@ -28,12 +28,12 @@ const questions = [
   },
   {
     type: "input", 
-    message: "Enter instructions for your Installation section",
+    message: "Enter instructions for the Section: Installation (how to INSTALL this application)",
     name: "installation", //user input stored here
   },
   {
     type: "input", 
-    message: "Enter text for your Usage section",
+    message: "Enter text for the Section: Usage (instuctions on how to USE this application)",
     name: "usage", //user input stored here
   },
   {
@@ -44,18 +44,18 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter text for your Contributing section",
+    message: "Enter text for the Section: Contributing (include guidelines for how to contribute)",
     name: "contributing", //user input stored here
   },
   {
     type: "input",
-    message: "Enter text for your Test section",
+    message: "Enter text for the Section: Test (write tests and examples on how to run them)",
     name: "test", //user input stored here
   },
   {
     type: "input",
     message:
-      "Enter instructions on how to reach you for the Section: Questions. Note: your email and GitHub (PRIVIOUSLY INPUTED) will be added here",
+      "Enter instructions on how to reach you for the Section: Questions. Note: your email and GitHub (PRIVIOUSLY INPUTED) will be added below",
     name: "questions", //user input stored here
   },
 ];
