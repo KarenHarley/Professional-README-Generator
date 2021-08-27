@@ -23,7 +23,7 @@ const questions = [
   },
   {
     type: "input", 
-    message: "Enter text for the Section: Description",
+    message: "Enter text for the Section: Description (describe your application)",
     name: "description", //user input stored
   },
   {
