@@ -54,25 +54,6 @@ function renderLicenseSection(license) {
   ## License
   The license used for this project: ${license}`;
 }
-/*
-const dataDEMO = {
-  title: "Karen",
-  description: "My house",
-  installation: "I like dogs",
-  usage: "bla",
-  license: "GNU GPL v3", //MIT Apache Mozilla GNU GPL v3
-  contributing: "contirbuting",
-  test: "test",
-  questions: "questions",
-  github: "github",
-  email: "email",
-};
-
-//console.log(dataDEMO)
-
-renderLicenseBadge(dataDEMO);
-//generateMarkdown(dataDEMO)
-*/
 
 function generateMarkdown(data) {
   const {
@@ -88,7 +69,7 @@ function generateMarkdown(data) {
     email,
   } = data;
 
-  //${renderLicenseBadge(license)}
+  
   return `
   ${renderLicenseBadge(license)}
   # ${title}
