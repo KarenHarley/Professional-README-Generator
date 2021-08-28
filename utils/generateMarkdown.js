@@ -3,37 +3,37 @@
 
 function renderLicenseBadge(license) {
   //console.log(license.license);
-//could use a switch
+
   if (license == "") {
     return "";
-    //  console.log("empty string")
+    
   } else if (license === "MIT") {
     return `[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]${renderLicenseLink(
       license
     )}`;
-    //console.log("worked!")
+    
   } else if (license === "Apache") {
     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]${renderLicenseLink(
       license
     )}`;
-    //console.log("worked!")
+    
   } else if (license === "Mozilla") {
     return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]${renderLicenseLink(
       license
     )}`;
-    //console.log("worked!")
+    
   } else if (license === "GNU GPL v3") {
     return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]${renderLicenseLink(
       license
     )}`;
-    //console.log("worked!")
+    
   }
 }
 
 //function that returns the license link
 // If there is no license, it returns an empty string
 function renderLicenseLink(license) {
-  //could use switch
+
   if (license === "MIT") {
     return `(https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)`;
   } else if (license === "Apache") {
