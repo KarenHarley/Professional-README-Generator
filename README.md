@@ -3,22 +3,37 @@
   # Professional README Generator
   ## Description
   This application generates a README based on user input. After the user enters text for all the sections a professional README should have, a new readme file is created and a license badge is added (according to the selected license).
-  ## Table of Contents 
 
+   ## Table of Contents 
+
+ - [How to use](#How-to-use)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
   - [How to Contribute](#contribute)
   - [Tests](#tests)
   - [Questions](#questions)
+
+<br/>
+<br/>
   
   ## Installation
   ```zsh
   npm install
   ```
   ## Usage
-  Invoke the application with the command: node index.js
-  
+  Invoke the application with the command: 
+  ```zsh
+ node index.js
+  ```
+  After invoking the application you will be with prompted seveal questions, such as the one below. Answering these questions will help this application create the perfect README for your project! 
+
+   ![question](./pics/question.png)
+
+ Then, after responding to all of the questions and selecting a license a README file like the one below will be created.
+
+   ![Final product](./pics/readme.png)
+
   ## License
   The license used for this project: MIT
   ## Contribute

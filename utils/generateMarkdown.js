@@ -3,7 +3,7 @@
 
 function renderLicenseBadge(license) {
   //console.log(license.license);
-
+//could use a switch
   if (license == "") {
     return "";
     //  console.log("empty string")
@@ -33,6 +33,7 @@ function renderLicenseBadge(license) {
 //function that returns the license link
 // If there is no license, it returns an empty string
 function renderLicenseLink(license) {
+  //could use switch
   if (license === "MIT") {
     return `(https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)`;
   } else if (license === "Apache") {
@@ -69,7 +70,7 @@ function generateMarkdown(data) {
     email,
   } = data;
 
-  
+//add the data paraterers rather an in an destructing  
   return `
   ${renderLicenseBadge(license)}
   # ${title}

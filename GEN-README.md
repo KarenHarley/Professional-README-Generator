@@ -2,7 +2,7 @@
   [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
   # Daily Planner
   ## Description
-  Plan and organize you daily schedule and tasks with this helpful tool
+  Organize your shedule with this helpful tool!
   ## Table of Contents 
 
   - [Installation](#installation)
@@ -15,18 +15,18 @@
   ## Installation
   no installation required
   ## Usage
-  Enter the website and add text by clicking in the colored area and then click on the save button.
+  After entering the website you can add text to hour sections by clicking in the colored area. Click the blue button with the lock to store the text.
   
   ## License
   The license used for this project: MIT
   ## Contribute
-  If you would like to contribute please contact me!
+  If you would like to contribute let me know.
   ## Tests
-  tests are coming soon.
+  tests coming soon.
   ## Questions
   If you have any questions please contact me below.
 
-  - GitHub: https://github.com/KarenHarley
-  - Email: karen.pretzel@gmail.com
+  - GitHub: https://github.com/n
+  - Email: d
     
     
