@@ -2,7 +2,7 @@
   [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
   # Professional README Generator
   ## Description
-  This applicationgenerates a README based on user input. After the user enters text for all the sections a professional README should have, a new readme file is created and a license badge is added (according to the selected license).
+  This application generates a README based on user input. After the user enters text for all the sections a professional README should have, a new readme file is created and a license badge is added (according to the selected license).
   ## Table of Contents 
 
   - [Installation](#installation)
@@ -13,7 +13,9 @@
   - [Questions](#questions)
   
   ## Installation
+  ```zsh
   npm install
+  ```
   ## Usage
   Invoke the application with the command: node index.js
   
