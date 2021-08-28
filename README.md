@@ -28,7 +28,11 @@
   ```
   After invoking the application you will be with prompted seveal questions, such as the one below. Answering these questions will help this application create the perfect README for your project! 
 
-   ![question](./pics/question.png)
+
+<p align="center">
+  <img src="./pics/question.png" alt="question">
+</p>
+  
 
  Then, after responding to all of the questions and selecting a license a README file like the one below will be created.
 
