@@ -1,4 +1,5 @@
 
+ 
   [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
   # Daily Planner
   ## Description
@@ -27,6 +28,4 @@
   If you have any questions please contact me below.
 
   - GitHub: https://github.com/n
-  - Email: d
-    
-    
+  - Email: email@email.com

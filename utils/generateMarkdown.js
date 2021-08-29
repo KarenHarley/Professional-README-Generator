@@ -6,28 +6,34 @@ function renderLicenseBadge(license) {
 
   if (license == "") {
     return "";
+    
   } else if (license === "MIT") {
     return `[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]${renderLicenseLink(
       license
     )}`;
+    
   } else if (license === "Apache") {
     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]${renderLicenseLink(
       license
     )}`;
+    
   } else if (license === "Mozilla") {
     return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]${renderLicenseLink(
       license
     )}`;
+    
   } else if (license === "GNU GPL v3") {
     return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]${renderLicenseLink(
       license
     )}`;
+    
   }
 }
 
 //function that returns the license link
 // If there is no license, it returns an empty string
 function renderLicenseLink(license) {
+
   if (license === "MIT") {
     return `(https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)`;
   } else if (license === "Apache") {
@@ -44,24 +50,27 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license == "") {
     return "";
-  }
+  } 
   return `
   ## License
   The license used for this project: ${license}`;
 }
 
-function generateMarkdown(
-  title,
-  description,
-  installation,
-  usage,
-  license,
-  contributing,
-  test,
-  questions,
-  github,
-  email
-) {
+function generateMarkdown(data) {
+  const {
+    title,
+    description,
+    installation,
+    usage,
+    license,
+    contributing,
+    test,
+    questions,
+    github,
+    email,
+  } = data;
+
+
   return `
   ${renderLicenseBadge(license)}
   # ${title}
@@ -93,4 +102,6 @@ function generateMarkdown(
     
     `;
 }
-module.exports = generateMarkdown;
+module.exports = generateMarkdown; 
+
+
