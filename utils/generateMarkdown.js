@@ -56,7 +56,19 @@ function renderLicenseSection(license) {
   The license used for this project: ${license}`;
 }
 
-function generateMarkdown(data) {
+function generateMarkdown({
+  title,
+  description,
+  installation,
+  usage,
+  license,
+  contributing,
+  test,
+  questions,
+  github,
+  email,
+}) {
+  /*
   const {
     title,
     description,
@@ -69,7 +81,7 @@ function generateMarkdown(data) {
     github,
     email,
   } = data;
-
+*/
 
   return `
   ${renderLicenseBadge(license)}
