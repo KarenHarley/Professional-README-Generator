@@ -68,20 +68,7 @@ function generateMarkdown({
   github,
   email,
 }) {
-  /*
-  const {
-    title,
-    description,
-    installation,
-    usage,
-    license,
-    contributing,
-    test,
-    questions,
-    github,
-    email,
-  } = data;
-*/
+
 
   return `
   ${renderLicenseBadge(license)}
