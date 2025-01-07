@@ -47,8 +47,8 @@ This application generates a README file based on user input. After the user ent
   ## Questions
   To reach me please contact me in the email address below.
 
-  - GitHub: https://github.com/KarenHarley
-  - Email: karenharley88@gmail.com
+  - GitHub: `https://github.com/KarenHarley`
+  - Email: `karenharley88@gmail.com`
     
     
   
